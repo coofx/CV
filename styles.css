@@ -38,7 +38,7 @@
   --fs-base: 19px;
   --fs-md: 18px;
   --fs-lg: 16px;
-  --fs-display: clamp(30px, 9vw, 114px);
+  --fs-display: clamp(32px, 7.2vw, 91px);
 }
 
 * {
