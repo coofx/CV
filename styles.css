@@ -1,5 +1,4 @@
 :root {
-  /* Brand color tokens from in-buro.com */
   --black: #000000;
   --white: #FFFFFF;
   --black-72: rgba(0, 0, 0, 0.72);
@@ -9,7 +8,6 @@
   --light-gray: #C8DADF;
   --middle-gray: #979D9F;
 
-  /* CV tokens */
   --cv-ink: #231F20;
   --cv-ink-56: rgba(35, 31, 32, 0.56);
   --cv-ink-40: rgba(35, 31, 32, 0.40);
@@ -40,7 +38,7 @@
   --fs-base: 19px;
   --fs-md: 18px;
   --fs-lg: 16px;
-  --fs-display: clamp(40px, 9vw, 114px);
+  --fs-display: clamp(30px, 9vw, 114px);
 }
 
 * {
