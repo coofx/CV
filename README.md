@@ -1,20 +1,15 @@
-# Игорь Невский — CV
+# Igor Nevskiy CV
 
-Статическая версия резюме на обычном HTML, CSS и JavaScript. Без React, Vite и сборки.
+Static CV website built with plain HTML, CSS and JavaScript. No Node.js, package installation, build step or API keys are required.
 
-## Как открыть
+## Run locally
 
-Откройте `index.html` в браузере или поднимите локальный сервер:
+Open `index.html` in a browser, or serve this folder with any static file server.
 
-```bash
-python3 -m http.server 8080
-```
+## Publish with GitHub Pages
 
-Затем зайдите на [http://localhost:8080](http://localhost:8080).
+1. Put the contents of this folder in the root of a GitHub repository.
+2. Push the `main` branch. The included GitHub Actions workflow publishes the site automatically.
+3. In the repository, open **Settings → Pages** and select **GitHub Actions** as the build and deployment source if it is not selected already.
 
-## Файлы
-
-- `index.html` — страница
-- `styles.css` — стили (экран и печать)
-- `data.js` — тексты резюме на русском и английском
-- `app.js` — переключение языка, раскрытие блоков, печать
+The PDF button opens the browser print dialog. Choose **Save as PDF** there.

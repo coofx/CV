@@ -3,18 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Игорь Невский – CV / Резюме</title>
     <meta name="description" content="Игорь Невский. Senior Experience Designer, AI Designer. Опыт работы, проекты, навыки и контакты." />
     <meta property="og:type" content="profile" />
     <meta property="og:title" content="Игорь Невский – CV / Резюме" />
     <meta property="og:description" content="Игорь Невский. Senior Experience Designer, AI Designer. Опыт работы, проекты, навыки и контакты." />
+    <meta name="theme-color" content="#f7f7f7" />
+    <title>Игорь Невский – CV / Резюме</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./data.js"></script>
+    <script defer src="./script.js"></script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div id="cv-app" class="cv-container">
+      <div id="cv-toolbar" class="toolbar">
+        <div class="wrap">
+          <div class="toolbar-left">
+            <nav class="langswitch" aria-label="Выбор языка">
+              <button id="lang-btn-en" type="button">EN</button>
+              <button id="lang-btn-ru" type="button" class="is-active">RU</button>
+            </nav>
+          </div>
+          <div class="actions">
+            <button id="pdfBtn" class="btn btn-primary" type="button">Сохранить PDF</button>
+          </div>
+        </div>
+      </div>
+      <div class="wrap">
+        <header id="cv-header" class="cv-head"></header>
+        <div class="grid">
+          <main id="cv-main"></main>
+          <aside id="cv-sidebar"></aside>
+        </div>
+        <footer id="cv-footer"></footer>
+      </div>
+    </div>
   </body>
 </html>
-

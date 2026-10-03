@@ -601,3 +601,4 @@ const cvDataEn = {
   footerNote: 'Igor Nevskiy · CV updated 2026'
 };
 
+window.CV_DATA = { ru: cvDataRu, en: cvDataEn };
