@@ -26,18 +26,18 @@ const cvDataRu = {
   jobs: [
     {
       id: 'insurance-company',
-      company: 'Страховая компания',
+      company: 'ГСК «Югория»',
       period: 'дек. 2024 – нояб. 2025',
       duration: '1 год',
       locationAndType: 'Москва • Страхование, FinTech • Web, PWA, Личный кабинет, CRM',
       title: 'Дизайнер интерфейсов',
       summaryLabel: 'Задача и процесс',
-      highlight: 'Возглавил полный редизайн цифровой экосистемы компании (сайт, PWA, личный кабинет, админ-панели), унифицировав UX/UI для всех клиентских и внутренних сервисов.',
+      highlight: 'Редизайн цифровой экосистемы Югории: корпоративный сайт, PWA, личный кабинет, оформление ОСАГО и ДМС, внутренние интерфейсы.',
       bulletPoints: [
-        'Возглавил полный редизайн цифровой экосистемы компании (сайт, PWA, личный кабинет, админ-панели), унифицировав UX/UI для всех клиентских и внутренних сервисов;',
-        'Разработал с нуля масштабируемую дизайн-систему и UI Kit в Figma, что позволило ускорить запуск новых фич и обеспечить визуальную консистентность на 3+ продуктовых командах;',
-        'Спроектировал новый процесс оформления полисов ОСАГО/ДМС, сократив количество полей и добавив автозаполнение по VIN;',
-        'Переработал архитектуру личного кабинета, сфокусировавшись на mobile-first сценариях, что упростило доступ к полисам и создало канал для сбора обратной связи от пользователей.'
+        'Обновил UX и визуальную систему клиентских и внутренних сервисов Югории, заложив единый подход для всех точек взаимодействия с компанией;',
+        'Создал в Figma масштабируемую дизайн-систему и UI Kit на основе BrandBook: настроил типографику, сетку, отступы и адаптивность; систематизировал кнопки, поля, формы и карточки, описал состояния компонентов и подготовил интерактивную документацию;',
+        'Переработал архитектуру сайта вокруг расчёта полиса, входа в личный кабинет и обращения; упростил главную страницу, спроектировал CTA, карточки, карусели и фильтры, учёл старые устройства и PWA;',
+        'Спроектировал личный кабинет с быстрым доступом к полисам, статусами и напоминаниями; оптимизировал мобильные сценарии для управления одной рукой и добавил сбор обратной связи. Упростил оформление ОСАГО и ДМС: сократил поля, предусмотрел автозаполнение по VIN и ИНН, пошаговый сценарий, прогресс, валидацию и подсказки; настроил отслеживание отказов в Google Tag Manager и Analytics.'
       ]
     },
     {
@@ -48,12 +48,12 @@ const cvDataRu = {
       locationAndType: 'Блокчейн-платформа • Web3, FinTech • Web, Личный кабинет',
       title: 'Дизайнер интерфейсов',
       summaryLabel: 'Задача и процесс',
-      highlight: 'UX-аудит и проектирование личного кабинета эмитента и клиента на блокчейн-платформе.',
+      highlight: 'Платформа цифровых финансовых активов Сбербанка и личные кабинеты эмитента и клиента на блокчейн-платформе.',
       bulletPoints: [
-        'Провел UX-аудит блокчейн-платформы, выявив ~15 узких мест в сценариях онбординга и управления кошельком;',
-        'Предложил и спрототипировал решения, упростившие ключевые пользовательские пути;',
-        'Разработал дизайн личного кабинета эмитента и клиента, от User Flow и интерактивных прототипов до финального UI и дизайн-ревью с разработчиками;',
-        'Провел полную ревизию UI Kit проекта: исправил унаследованные ошибки в компонентах, обеспечив консистентность интерфейса.'
+        'Для платформы ЦФА Сбербанка адаптировал Ant Design под фирменный стиль банка: доработал таблицы, кнопки, формы и меню, настроил типографику, отступы, радиусы и состояния компонентов;',
+        'Спроектировал карточки цифровых активов со сравнением и избранным, портфель с графиками и индикаторами риска, а также прогресс для многошаговых операций;',
+        'Проработал более 20 пользовательских путей: регистрацию и идентификацию, покупку и продажу активов, управление портфелем, налоговую отчётность и историю транзакций с поиском и фильтрами; создал модульные интерфейсы для desktop и mobile, адаптируя их при изменениях требований и интеграций;',
+        'Добавил индикаторы безопасности аккаунта и пошаговое подтверждение операций; работал в команде из 10 дизайнеров, арт-директора, product owner, аналитика и разработчиков. По кейсу, платформа внедрена и сертифицирована регулятором, более 85% участников тестирования отметили удобство, а UI Kit сократил разработку новых интерфейсов на 25%. Также провёл UX-аудит Local Green-S, выявил около 15 проблем и спроектировал кабинеты эмитента и клиента.'
       ]
     },
     {
@@ -64,14 +64,14 @@ const cvDataRu = {
       locationAndType: 'Москва • Банковский сектор, FinTech, GameTech • Web, Mobile',
       title: 'UI/UX Designer',
       summaryLabel: 'Задача и процесс',
-      highlight: 'Проектирование дизайн-системы и CRM для ВТБ, а также запуск платформы Futopedia.',
+      highlight: 'Дизайн-система и редизайн CRM «Спектрум» для ВТБ; также проект Futopedia (EA SPORTS FC 21).',
       subProjects: [
         {
           name: 'Проект ВТБ',
-          description: 'Дизайн-система для внутренних банковских продуктов и редизайн CRM «Спектрум»:',
+          description: 'Задача — модернизировать интерфейсы ВТБ, упростить работу операторов и создать общую дизайн-систему. Работал в команде из 10 дизайнеров, арт-директора и разработчиков:',
           bullets: [
-            'Разработал и внедрил с нуля дизайн-систему для внутренних продуктов банка, которая была использована для редизайна платформ «Спектрум» и «РКО»;',
-            'Провел редизайн CRM-системы «Спектрум», протестировав прототипы на реальных операторах банка для верификации UX-решений.'
+            'Применил дизайн-систему при редизайне CRM «Спектрум» и переработал сценарии карточек клиентов, мониторинга задач операторов, запросов и обращений; проверял решения на прототипах с операторами; подготовил спецификации, участвовал в дизайн-ревью и сверял реализацию с макетами. Результат по кейсу: система внедрена в несколько продуктов, время задач операторов сократилось на 15%, удовлетворённость выросла на 18% по внутренним опросам.',
+            'Проанализировал интерфейсы ВТБ и участвовал в создании UI-библиотеки в Figma: кнопки, поля, списки, табы и таблицы; проработал доступность, типографику и состояния компонентов;'
           ]
         },
         {
@@ -89,13 +89,13 @@ const cvDataRu = {
       company: 'GFC',
       period: 'дек. 2018 – май 2019',
       duration: '6 месяцев',
-      locationAndType: 'Компания GFC — ведущий поставщик продуктов питания для профессионалов в сегменте HoReCa • E-commerce',
+      locationAndType: 'Поставщик продуктов и логистических услуг для HoReCa • 16 регионов, 23 филиала • E-commerce, Mobile',
       title: 'UI/UX Designer',
       summaryLabel: 'Задача и процесс',
-      highlight: 'Рост конверсии в покупку на 25% и увеличение времени на сайте на 18%.',
+      highlight: 'Обновил HoReCa-маркетплейс и приложения; по кейсу, конверсия регистрации и оформления заказа выросла на 40%.',
       bulletPoints: [
-        'Провел полный редизайн сайта и мобильных приложений HoReCa-поставщика, что привело к росту конверсии в покупку на 25% и увеличению среднего времени на сайте на 18%;',
-        'Создал масштабируемый UI Kit и единый фирменный стиль для продуктовой линейки.'
+        'Провёл UX-анализ сайта и личного кабинета; сравнил B2B-платформы HoReCa, изучил мобильные сценарии, поиск, фильтры, заказы и программы лояльности; сегментировал аудиторию и спроектировал путь от регистрации до самостоятельного заказа;',
+        'Переработал регистрацию: выбор типа юрлица до ввода данных; спроектировал сайт, личный кабинет и приложения iOS/Android, выделил «Зверский кэшбек» и переставил историю заказов. Создал UI Kit, работал с продактом, аналитиком и разработчиками; обновление упростило навигацию и снизило нагрузку на колл-центр. По кейсу, конверсия регистрации и заказа выросла на 40%; переход с Bootstrap на SSR React сократил загрузку страниц.'
       ]
     },
     {
@@ -174,13 +174,13 @@ const cvDataRu = {
       locationAndType: 'Сервис подработки и финансовых продуктов • Mobile app, Web',
       title: 'UI/UX Designer',
       summaryLabel: 'Задача и процесс',
-      highlight: 'Разработка Android-приложения (100+ экранов) и фирменного стиля продукта с нуля.',
+      highlight: 'UI/UX Android-сервиса для подработки: 100+ экранов, сценарии заданий и выплат, UI Kit и фирменный стиль.',
       bulletPoints: [
-        'Проектирование с самого раннего этапа приложения для подработки (от выдачи кредитной карты до выдачи страхового полиса);',
-        'Разработка Android-приложения в соответствии с Material Design, 100+ экранов, полное сопровождение релиза;',
-        'Создание фирменного стиля компании (логотип, цветовая палитра, мудборд, творческий медиа-контент для социальных сетей, промо-видеоролики для Google Play, презентации);',
-        'Внедрение нового продуктового функционала, проектирование лендингов на Tilda;',
-        'Результат: существенная генерация клиентов и узнаваемости бренда. Работа по спринтам в Trello и Jira.'
+        'Провёл конкурентный анализ Avito, YouDo и других сервисов; спроектировал путь от онбординга и выбора задания до выполнения, проверки результата и вывода денег;',
+        'Разработал более 100 экранов Android-приложения по Material Design: каталог с фильтрами, карточки бонусных и срочных заданий, прогресс, доходы и цели;',
+        'Создал масштабируемый UI Kit и визуальную идентичность: логотип, палитру и материалы для социальных сетей; подготовил проморолики для Google Play и презентации;',
+        'Проектировал новые функции и страницы на Tilda, передавал макеты разработчикам и сопровождал релиз; проверял решения по тестам, обратной связи и метрикам совместно с продакт-менеджером. По кейсу, UI Kit ускорил разработку на 30%, время выполнения задания сократилось на 15%, NPS вырос на 25%, более 40% пользователей возвращались за новыми заданиями.',
+        'Работал по спринтам в Trello и Jira.'
       ]
     },
     {
@@ -340,12 +340,12 @@ const cvDataEn = {
       locationAndType: 'Moscow • Insurance, FinTech • Web, PWA, Client Portal, CRM',
       title: 'Interface Designer',
       summaryLabel: 'Tasks & Process',
-      highlight: 'Spearheaded full redesign of the company digital ecosystem, unifying UX/UI across all customer and internal platforms.',
+      highlight: 'Redesigned Yugoria’s digital ecosystem: corporate website, PWA, client portal, OSAGO and DMS checkout, and internal tools.',
       bulletPoints: [
-        'Led end-to-end redesign of the company digital ecosystem (website, PWA, personal portal, admin dashboards), unifying UX/UI across all services;',
-        'Built a scalable Figma design system and UI Kit from scratch, accelerating new feature releases across 3+ product teams;',
-        'Redesigned mandatory/voluntary car insurance checkout flows, cutting form fields and integrating VIN auto-fill;',
-        'Rearchitected user account portal with a mobile-first approach, simplifying policy access and user feedback loops.'
+        'Unified the UX and visual language across Yugoria’s customer-facing services and internal tools;',
+        'Created a scalable Figma design system and UI Kit based on the BrandBook, covering typography, grids, spacing, responsive behavior, component states, and interactive documentation;',
+        'Restructured the website around policy calculation, account access, and support; simplified the home page and designed product cards, carousels, filters, and calls to action for PWA and older devices;',
+        'Designed a client portal with quick policy access, status indicators, renewal reminders, one-handed mobile flows, and a feedback channel. Simplified OSAGO and DMS checkout with fewer fields, VIN/tax ID autofill, a step-by-step wizard, validation, and guidance; set up funnel tracking in Google Tag Manager and Analytics.'
       ]
     },
     {
@@ -356,12 +356,12 @@ const cvDataEn = {
       locationAndType: 'Blockchain Platform • Web3, FinTech • Web, Client Portal',
       title: 'Interface Designer',
       summaryLabel: 'Tasks & Process',
-      highlight: 'UX audit and portal architecture for issuer and client accounts on a blockchain platform.',
+      highlight: 'Designed a Sberbank digital financial assets platform and issuer/client portals for a blockchain product.',
       bulletPoints: [
-        'Conducted UX audit of the blockchain platform, uncovering ~15 bottlenecks in onboarding and wallet management flows;',
-        'Prototyped and validated streamlined user flows for key transactions;',
-        'Designed client and issuer portals from User Flows and interactive wireframes to final UI and developer design reviews;',
-        'Audited and refactored the UI Kit, resolving component bugs and ensuring visual consistency.'
+        'Adapted Ant Design to the bank’s visual identity, refining tables, buttons, forms, menus, typography, spacing, radii, and component states;',
+        'Designed asset cards with compare and save actions, portfolio charts and risk indicators, and progress feedback for multi-step operations;',
+        'Mapped 20+ flows for onboarding, identity checks, buying and selling assets, portfolio management, tax reports, and searchable transaction history; built modular desktop and mobile interfaces that adapted to changing business requirements and integrations;',
+        'Added account security indicators and step-by-step transaction confirmation; collaborated with 10 designers, an art director, product owner, analyst, and developers. Per the case, the platform launched and passed regulatory certification, over 85% of test participants found it easy to use, and the UI Kit reduced new interface development time by 25%. Also audited Local Green-S, identified around 15 issues, and designed issuer and client portals.'
       ]
     },
     {
@@ -372,14 +372,14 @@ const cvDataEn = {
       locationAndType: 'Moscow • Banking & FinTech, GameTech • Web, Mobile',
       title: 'UI/UX Designer',
       summaryLabel: 'Tasks & Process',
-      highlight: 'Built design systems for VTB Bank platforms and launched Futopedia for EA SPORTS FC 21.',
+      highlight: 'Designed a VTB internal design system and redesigned the Spectrum CRM, alongside the Futopedia (EA SPORTS FC 21) project.',
       subProjects: [
         {
           name: 'VTB Bank Project',
-          description: 'Internal design system and CRM redesign:',
+          description: 'Modernized VTB internal products and operator workflows with a shared design system; collaborated with 10 designers, an art director, and developers:',
           bullets: [
-            'Architected and implemented an internal product design system utilized in redesigning Spectrum and Settlement banking platforms;',
-            'Redesigned the Spectrum CRM system, validating interactive prototypes with real bank operators.'
+            'Analyzed VTB interfaces and contributed Figma components for buttons, fields, dropdowns, tabs, and tables; defined accessibility, typography, focus behavior, and default, active, disabled, and error states;',
+            'Applied the system to the Spectrum CRM redesign; reworked customer records, operator task monitoring, requests, and appeals; validated prototypes with operators; prepared specs, joined design reviews, and checked implementation. Case results: the system shipped in several products, operator task time fell by 15%, and satisfaction rose by 18% in internal surveys.'
           ]
         },
         {
@@ -397,13 +397,13 @@ const cvDataEn = {
       company: 'GFC',
       period: 'Dec. 2018 – May 2019',
       duration: '6 months',
-      locationAndType: 'Leading HoReCa B2B Foodservice Supplier • E-commerce',
+      locationAndType: 'HoReCa food and logistics supplier • 16 regions, 23 branches • E-commerce, Mobile',
       title: 'UI/UX Designer',
       summaryLabel: 'Tasks & Process',
-      highlight: 'Boosted purchase conversion by 25% and average time on site by 18%.',
+      highlight: 'Redesigned the HoReCa marketplace and apps; case results showed a 40% increase in registration and order conversion.',
       bulletPoints: [
-        'Overhauled the B2B web store and mobile applications, yielding a +25% purchase conversion and +18% session duration;',
-        'Constructed unified brand styling and design components.'
+        'Audited the website and client portal; benchmarked HoReCa B2B services; segmented users and designed the journey from registration to self-service orders, with new flows and wireframes;',
+        'Redesigned registration, website, client portal, and iOS/Android apps; surfaced the “Зверский кэшбек” feature and moved order history below key content. Created a UI Kit with the product manager, analyst, and developers. Case results: registration and order conversion grew by 40%; moving from Bootstrap to SSR React reduced page load time.'
       ]
     },
     {
@@ -474,11 +474,11 @@ const cvDataEn = {
       locationAndType: 'Gig economy & financial affiliate platform • Mobile, Web',
       title: 'UI/UX Designer',
       summaryLabel: 'Tasks & Process',
-      highlight: 'Designed 100+ screens for Android app and established company brand identity.',
+      highlight: 'Designed a 100+ screen Android gig-work service, task and payout flows, UI Kit, and brand identity.',
       bulletPoints: [
-        'Joined at product inception; designed 100+ Android screens adhering to Material Design;',
-        'Created complete brand identity (logo, color system, social media assets, video promos, decks);',
-        'Built landing pages on Tilda and managed sprint backlogs in Jira and Trello.'
+        'Benchmarked Avito, YouDo, and other services; designed the journey from onboarding and task selection through completion, review, and payout;',
+        'Created 100+ Android screens following Material Design, including a filterable task catalog, bonus and urgent task cards, progress, income, and goals; built a UI Kit and brand assets including the logo, color palette, social graphics, Google Play promos, and presentations;',
+        'Designed new features and Tilda landing pages, handed off layouts, supported release, and iterated with the product manager using tests, feedback, and metrics. Case results: feature development sped up by 30%, task time fell by 15%, NPS rose by 25%, and over 40% of users returned for new tasks; worked in Jira and Trello.'
       ]
     },
     {
