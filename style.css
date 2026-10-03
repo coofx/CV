@@ -439,7 +439,7 @@ details[open] .summary-chevron {
 }
 
 .job-body {
-  font-size: var(--fs-md);
+  font-size: var(--fs-sm);
   padding-top: 10px;
   color: var(--ink);
 }
