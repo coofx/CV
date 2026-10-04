@@ -1,4 +1,5 @@
 const cvDataRu = {
+  
   lang: 'ru',
   name: 'Игорь Невский',
   role: 'Senior Experience Designer, AI Designer',
@@ -134,7 +135,7 @@ const cvDataRu = {
       ]
     },
     {
-      id: 'otp-bank',
+            id: 'otp-bank',
       company: 'ОТП Банк, ОАО (OTP Bank)',
       companyUrl: 'https://www.otpbank.ru/',
       period: 'февр. 2017 – апр. 2017',
@@ -142,13 +143,13 @@ const cvDataRu = {
       locationAndType: 'Москва, www.otpbank.ru • Финансовый сектор • Банк',
       title: 'Дизайнер интерфейсов',
       summaryLabel: 'Задача и процесс',
-      highlight: 'Разработка компонентов для создания банковской системы дизайна на базе концепции Atomic Design.',
-      bulletPoints: [
-        'Разработка компонентов для банковской дизайн-системы, основанных на методологии атомного дизайна;',
-        'Создание унифицированных макетов и гайдов для передачи в разработку.'
+            highlight: 'Спроектировал интерфейсы цифрового банка OTP Bank для desktop и mobile: повседневные операции, счета, карты, кредиты и вклады.',
+            bulletPoints: [
+                'Создал атомарные Figma-компоненты и макеты для централизованной дизайн-системы; разработал единые паттерны и переиспользуемые элементы интерфейса;',
+                'Спроектировал дашборды и разделы карт, счетов, кредитов и вкладов, включая связанные продукты и арестованные счета; проработал реквизиты и выписки по картам, просроченные платежи и ленту операций с обзором расходов, поиском и фильтрами по датам и категориям для desktop и mobile.'
       ]
-    },
-    {
+        },
+            {id: 'otp-bank'
       id: 'mgts',
       company: 'МГТС',
       companyUrl: 'https://www.mgts.ru/',
@@ -437,7 +438,7 @@ const cvDataEn = {
       ]
     },
     {
-      id: 'otp-bank',
+            id: 'otp-bank',
       company: 'OTP Bank',
       companyUrl: 'https://www.otpbank.ru/',
       period: 'Feb. 2017 – Apr. 2017',
@@ -445,9 +446,13 @@ const cvDataEn = {
       locationAndType: 'Moscow • Banking & Financial Services',
       title: 'Interface Designer',
       summaryLabel: 'Tasks & Process',
-      highlight: 'Designed atomic component libraries for the bank design system.',
+            highlight: 'Designed OTP Bank’s digital banking experience across desktop and mobile, covering everyday banking and core financial products.',
       bulletPoints: [
-        'Developed atomic design components and mockups for the centralized banking design system.'
+                'Built atomic Figma components and mockups for a centralized banking design system, using shared visual patterns and reusable UI elements;',
+        'Designed dashboards and product views for cards, accounts, loans, and deposits, including linked products and restricted-account states;',
+        'Created card and credit interfaces for card details, statements, linked accounts, and overdue-payment scenarios;',
+        'Designed the transaction feed with spending summaries, search, date and category filters, and transaction history grouped by date;',
+        'Defined responsive desktop and mobile layouts and documented interaction states, including expanded product details, hover behavior, and scrolling.'
       ]
     },
     {
